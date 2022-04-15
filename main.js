@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Stagiaire_js_1 = require("../Aissata-Ba/Stagiaire.js");
+var stagiaire = new Stagiaire_js_1.Stagiaire("aicha", [10, 20]);
+console.log(stagiaire.calculerMoyenne);
+console.log(stagiaire.trouverMax);
+console.log(stagiaire.trouverMin);
+var Formation_js_1 = require("../Aissata-Ba/Formation.js");
+var formation = new Formation_js_1.Formation("intitule", 10, [10, 20]);
+console.log(formation.calculerMoyenneFormation);
